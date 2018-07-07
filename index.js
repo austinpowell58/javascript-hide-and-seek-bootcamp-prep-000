@@ -12,24 +12,11 @@ function deepestChild() {
   
   const desc = start.querySelectorAll('*')
   for (let i = 0; i < desc.length; i++) 
-  if (desc[i].childElementcount)
- 
-  while (current) {
-    if (current.innerHTML === "boo!") {
-      return current
-    }
+  if (desc[i].childElementCount === 0) {
+    return desc[i]
   }
-    if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
-        next.push(current[i])
-      }
-    }
  
-    current = next.shift()
-  
- 
- return null
-}
+
     
   
 
