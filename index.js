@@ -26,8 +26,8 @@ function deepestChild() {
  
     current = next.shift()
   }
- 
-  return null
+ }
+ return null
 }
     
   }
