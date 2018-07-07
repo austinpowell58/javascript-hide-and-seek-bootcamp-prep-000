@@ -14,10 +14,7 @@ function deepestChild() {
   let next = []
  
   while (current) {
-    // if `current` satisfies the `criteriaFn`, then
-    // return it — recall that `return` will exit the
-    // entire function!
-    if (current.inn {
+    if (current.innerHTML === "boo!") {
       return current
     }
   }
@@ -27,15 +24,9 @@ function deepestChild() {
       }
     }
  
-    // after pushing any children (if there
-    // are any) of `current` onto `next`, we want to take
-    // the first element of `next` and make it the
-    // new `current` for the next pass of the `while`
-    // loop
     current = next.shift()
   }
  
-  // if we haven't
   return null
 }
     
