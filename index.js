@@ -25,14 +25,12 @@ function deepestChild() {
     }
  
     current = next.shift()
-  }
- }
+  
+ 
  return null
 }
     
-  }
   
-}
 
 function increaseRankBy(n) {
   const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
