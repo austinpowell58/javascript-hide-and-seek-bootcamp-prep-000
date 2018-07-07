@@ -11,8 +11,8 @@ function deepestChild() {
   const start = document.getElementById('grand-node')
   
   const desc = start.querySelectorAll('*')
-  
-  if (desc[i].)
+  for (let i = 0; i < desc.length; i++) 
+  if (desc[i].childElementcount)
  
   while (current) {
     if (current.innerHTML === "boo!") {
