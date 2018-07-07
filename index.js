@@ -8,10 +8,11 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  const start = document.getElementById('grand-node').querySelectorAll('div')
+  const start = document.getElementById('grand-node')
   
-  let current = start
-  let next = []
+  const desc = start.querySelectorAll('*')
+  
+  if (desc[i].)
  
   while (current) {
     if (current.innerHTML === "boo!") {
